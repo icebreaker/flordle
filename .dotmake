@@ -1,0 +1,16 @@
+function build()
+{
+ 	make qemu
+}
+
+function execute()
+{
+	build
+}
+
+function clean()
+{
+	make clean
+}
+
+# vim: set ft=bash:

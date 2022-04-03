@@ -1,0 +1,29 @@
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Flordle</title>
+    <style type="text/css">
+		body { padding: 0; width: 640px; margin: 50px auto; }
+		.dosbox-container { width: 640px; height: 400px; }
+    </style>
+  </head>
+  <body>
+	<a href="http://github.com/icebreaker/flordle">
+		<img style="position: fixed; top: 0; right: 0; border: 0; z-index: 1000;"
+			src="ribbon.png" alt="Fork me on GitHub">
+	</a>
+    <div id="dosbox" onclick="dosbox.requestFullScreen();"></div>
+    <script type="text/javascript" src="https://js-dos.com/cdn/js-dos-api.js"></script>
+    <script type="text/javascript">
+    var dosbox = new Dosbox(
+	{
+        id: "dosbox",
+        onload: function (dosbox)
+		{
+          dosbox.run("FLORDLE.ZIP", "./FLORDLE.COM");
+        }
+    });
+    </script>
+  </body>
+</html>

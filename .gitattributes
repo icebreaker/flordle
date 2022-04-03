@@ -1,0 +1,3 @@
+Makefile linguist-vendored
+.dotmake linguist-vendored
+.editorconfig linguist-vendored

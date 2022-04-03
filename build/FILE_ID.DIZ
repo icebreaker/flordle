@@ -1,0 +1,13 @@
+Flordle is a boot-able and M$-DOS compatible text-mode Wordle clone.
+
+To play run,
+
+FLORDLE.COM
+
+or alternatively,
+
+dosbox FLORDLE.COM
+
+Have fun!
+
+Visit https://github.com/icebreaker/flordle for more info.
