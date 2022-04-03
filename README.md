@@ -1,6 +1,6 @@
 Flordle
 =======
-**Flordle** is a *boot-able* and *M$-DOS compatible* text-mode [Wordle][worldle] clone.
+**Flordle** is a *boot-able* and *M$-DOS compatible* text-mode [Wordle][wordle] clone.
 
 It has **1024** unique words built-in and fits in a paltry **8 kilo-bytes**.
 
